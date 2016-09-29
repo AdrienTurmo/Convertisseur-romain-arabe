@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c44c759b-353d-44ae-be2e-f380a6198a74" name="Default" comment="" />
+    <list default="true" id="c44c759b-353d-44ae-be2e-f380a6198a74" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Convertisseur.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Convertisseur.java" afterPath="$PROJECT_DIR$/src/main/java/Convertisseur.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ConvertisseurArabToRomanTest.java" afterPath="$PROJECT_DIR$/src/test/java/ConvertisseurArabToRomanTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ConvertisseurRomanToArabTest.java" afterPath="$PROJECT_DIR$/src/test/java/ConvertisseurRomanToArabTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ConvertisseurTestGlobal.java" afterPath="$PROJECT_DIR$/src/test/java/ConvertisseurTestGlobal.java" />
+    </list>
     <ignored path="fizzbuzz.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +35,8 @@
           <file leaf-file-name="Convertisseur.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Convertisseur.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+                <state relative-caret-position="340">
+                  <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
                   <folding>
                     <element signature="method#SumArray#0;class#Convertisseur#0" expanded="false" />
                   </folding>
@@ -44,12 +51,12 @@
           <file leaf-file-name="ConvertisseurRomanToArabTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurRomanToArabTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
-                  <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+                <state relative-caret-position="374">
+                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#209#210#0" expanded="true" />
-                    <element signature="e#251#252#0" expanded="true" />
+                    <element signature="e#218#219#0" expanded="true" />
+                    <element signature="e#269#270#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -58,12 +65,12 @@
           <file leaf-file-name="ConvertisseurArabToRomanTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurArabToRomanTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#209#210#0" expanded="true" />
-                    <element signature="e#251#252#0" expanded="true" />
+                    <element signature="e#218#219#0" expanded="true" />
+                    <element signature="e#269#270#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -72,12 +79,12 @@
           <file leaf-file-name="ConvertisseurTestGlobal.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurTestGlobal.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#204#205#0" expanded="true" />
-                    <element signature="e#246#247#0" expanded="true" />
+                    <element signature="e#213#214#0" expanded="true" />
+                    <element signature="e#264#265#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -94,6 +101,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -107,10 +117,10 @@
         <option value="$PROJECT_DIR$/src/test/java/ConvertisseurTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConvertisseurArabToRomanTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ConvertisseurArabToArabTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ConvertisseurArabToRomanTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ConvertisseurTestGlobal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Convertisseur.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ConvertisseurArabToRomanTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ConvertisseurRomanToArabTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Convertisseur.java" />
       </list>
     </option>
   </component>
@@ -174,28 +184,11 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Convertisseur romain-arabe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Convertisseur romain-arabe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Convertisseur romain-arabe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,49 +210,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertisseurTestGlobal.answer_ShouldReturnI_whenEntryIs1">
-    <configuration default="false" name="ConvertisseurArabToRomanTest.answer_ShouldReturnIV_whenEntryIs4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Convertisseur" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConvertisseurArabToRomanTest" />
-      <option name="METHOD_NAME" value="answer_ShouldReturnIV_whenEntryIs4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConvertisseurArabToRomanTest.answer_ShouldReturnIX_whenEntryIs9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Convertisseur" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConvertisseurArabToRomanTest" />
-      <option name="METHOD_NAME" value="answer_ShouldReturnIX_whenEntryIs9" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ConvertisseurTestGlobal">
     <configuration default="false" name="ConvertisseurTestGlobal.answer_ShouldReturnI_whenEntryIs1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Convertisseur" />
@@ -268,27 +219,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConvertisseurTestGlobal" />
       <option name="METHOD_NAME" value="answer_ShouldReturnI_whenEntryIs1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsDM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Convertisseur" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConvertisseurRomanToArabTest" />
-      <option name="METHOD_NAME" value="answer_ShouldReturn900_whenEntryIsDM" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -311,6 +241,69 @@
       <option name="MAIN_CLASS_NAME" value="ConvertisseurRomanToArabTest" />
       <option name="METHOD_NAME" value="answer_ShouldReturn900_whenEntryIsCM" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConvertisseurArabToRomanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Convertisseur" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConvertisseurArabToRomanTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConvertisseurArabToRomanTest.answer_ShouldReturnI_whenEntryIs1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Convertisseur" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConvertisseurArabToRomanTest" />
+      <option name="METHOD_NAME" value="answer_ShouldReturnI_whenEntryIs1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConvertisseurTestGlobal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Convertisseur" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConvertisseurTestGlobal" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -568,19 +561,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ConvertisseurArabToRomanTest.answer_ShouldReturnIV_whenEntryIs4" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ConvertisseurArabToRomanTest.answer_ShouldReturnIX_whenEntryIs9" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ConvertisseurTestGlobal.answer_ShouldReturnI_whenEntryIs1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsDM" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsCM" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ConvertisseurTestGlobal.answer_ShouldReturnI_whenEntryIs1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsCM" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ConvertisseurArabToRomanTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConvertisseurArabToRomanTest.answer_ShouldReturnI_whenEntryIs1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ConvertisseurTestGlobal" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ConvertisseurTestGlobal.answer_ShouldReturnI_whenEntryIs1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsCM" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsDM" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ConvertisseurArabToRomanTest.answer_ShouldReturnIX_whenEntryIs9" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ConvertisseurArabToRomanTest.answer_ShouldReturnIV_whenEntryIs4" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ConvertisseurTestGlobal" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConvertisseurArabToRomanTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ConvertisseurArabToRomanTest.answer_ShouldReturnI_whenEntryIs1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ConvertisseurTestGlobal.answer_ShouldReturnI_whenEntryIs1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsCM" />
       </list>
     </recent_temporary>
   </component>
@@ -604,23 +597,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConvertisseurArabToRomanTest_answer_ShouldReturnIV_whenEntryIs4 - 2016.09.28 at 22h 03m 41s.xml">
-      <configuration name="ConvertisseurArabToRomanTest.answer_ShouldReturnIV_whenEntryIs4" configurationId="JUnit" />
+    <history-entry file="ConvertisseurArabToRomanTest - 2016.09.29 at 15h 19m 24s.xml">
+      <configuration name="ConvertisseurArabToRomanTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertisseurArabToRomanTest_answer_ShouldReturnIX_whenEntryIs9 - 2016.09.28 at 22h 03m 46s.xml">
-      <configuration name="ConvertisseurArabToRomanTest.answer_ShouldReturnIX_whenEntryIs9" configurationId="JUnit" />
+    <history-entry file="ConvertisseurArabToRomanTest - 2016.09.29 at 15h 20m 02s.xml">
+      <configuration name="ConvertisseurArabToRomanTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertisseurRomanToArabTest_answer_ShouldReturn900_whenEntryIsCM - 2016.09.28 at 22h 09m 39s.xml">
-      <configuration name="ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsCM" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConvertisseurRomanToArabTest_answer_ShouldReturn900_whenEntryIsCM - 2016.09.28 at 22h 09m 50s.xml">
-      <configuration name="ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsCM" configurationId="JUnit" />
+    <history-entry file="ConvertisseurArabToRomanTest_answer_ShouldReturnI_whenEntryIs1 - 2016.09.29 at 15h 19m 58s.xml">
+      <configuration name="ConvertisseurArabToRomanTest.answer_ShouldReturnI_whenEntryIs1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConvertisseurRomanToArabTest_answer_ShouldReturn900_whenEntryIsDM - 2016.09.28 at 22h 09m 02s.xml">
       <configuration name="ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsDM" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConvertisseurRomanToArabTest_answer_ShouldReturn900_whenEntryIsDM - 2016.09.28 at 22h 09m 32s.xml">
       <configuration name="ConvertisseurRomanToArabTest.answer_ShouldReturn900_whenEntryIsDM" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertisseurTestGlobal - 2016.09.29 at 15h 20m 10s.xml">
+      <configuration name="ConvertisseurTestGlobal" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConvertisseurTestGlobal_answer_ShouldReturnI_whenEntryIs1 - 2016.09.28 at 22h 06m 55s.xml">
       <configuration name="ConvertisseurTestGlobal.answer_ShouldReturnI_whenEntryIs1" configurationId="JUnit" />
@@ -644,22 +637,22 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.48569384" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.4796875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5143061" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28646934" sideWeight="0.5182292" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28646934" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28646934" sideWeight="0.48177084" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -682,7 +675,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -691,6 +684,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Convertisseur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="method#SumArray#0;class#Convertisseur#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurRomanToArabTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurArabToRomanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurTestGlobal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Convertisseur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -707,8 +746,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -729,8 +768,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,56 +782,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConvertisseurArabToRomanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Convertisseur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="method#SumArray#0;class#Convertisseur#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConvertisseurArabToRomanTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurRomanToArabTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurArabToRomanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ConvertisseurTestGlobal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Convertisseur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="method#SumArray#0;class#Convertisseur#0" expanded="false" />
           </folding>
         </state>
       </provider>
