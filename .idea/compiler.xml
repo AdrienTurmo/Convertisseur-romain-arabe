@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Convertisseur" />
         <module name="fizzbuzz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Convertisseur" target="1.5" />
       <module name="fizzbuzz" target="1.5" />
     </bytecodeTargetLevel>
   </component>

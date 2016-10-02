@@ -1,72 +1,81 @@
-import static javafx.scene.input.KeyCode.L;
-
 public class Convertisseur {
 
 
-    public int RomanToArab(String RomanNumber) {
-
-        char[] RomanChars = RomanNumber.toCharArray();
-        int length_RomanNumber = RomanChars.length;
-        int[] ArabNumbers = new int[length_RomanNumber];
-        for (int i = 0;i<length_RomanNumber;i++) {
-            ArabNumbers[i] = RomanToArabUnitaire(RomanChars[i]);
-        }
-        for (int i = 0;i<length_RomanNumber-1;i++) {
-            int First = ArabNumbers[i];
-            int Next = ArabNumbers[i+1];
-            if (First < Next ) {
-                ArabNumbers[i] = -First;
-            }
-        }
-
-        return SumArray(ArabNumbers);
+    public int romanToArab(String romanNumber) {
+        int[] arabNumbersConverted = convertEachRomanLetterToNumber(romanNumber);
+        int[] arabNumbersRelative = makeNumberNegativeWhenNumberIsLessThanTheFollowingOne(arabNumbersConverted);
+        return sum(arabNumbersRelative);
     }
 
-    public String ArabToRoman(int ArabNumber) {
+    public String arabToRoman(int arabNumber) {
         String answer = "";
-        int[] SpecialNumbers = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
-        String[] RomanLetters = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
-        for (int i=0;i<13;i++){
-            int NumberComparedTo = SpecialNumbers[i];
-            if (ArabNumber-NumberComparedTo>=0){
-                return RomanLetters[i]+ArabToRoman(ArabNumber-NumberComparedTo);
+        int[] specialNumbers = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+        String[] romanLetters = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+        for (int index = 0; index < 13; index++) {
+            int specialNumber = specialNumbers[index];
+            if (arabNumber - specialNumber >= 0) {
+                return romanLetters[index] + arabToRoman(arabNumber - specialNumber);
             }
         }
         return answer;
     }
 
-
-
-    private int RomanToArabUnitaire(char RomanLetter) {
+    private int romanToArabUnit(char romanLetter) {
         int answer = 0;
-        switch(RomanLetter) {
-            case 'I': answer = 1;
+        switch (romanLetter) {
+            case 'I':
+                answer = 1;
                 break;
-            case 'V': answer = 5;
+            case 'V':
+                answer = 5;
                 break;
-            case 'X': answer = 10;
+            case 'X':
+                answer = 10;
                 break;
-            case 'L': answer = 50;
+            case 'L':
+                answer = 50;
                 break;
-            case 'C': answer = 100;
+            case 'C':
+                answer = 100;
                 break;
-            case 'D': answer = 500;
+            case 'D':
+                answer = 500;
                 break;
-            case 'M': answer = 1000;
+            case 'M':
+                answer = 1000;
                 break;
         }
         return answer;
     }
 
-    private int SumArray(int[] IntArray) {
+    private int sum(int[] intArray) {
         int sum = 0;
-        for (int i = 0 ; i < IntArray.length ; i++){
-            sum = sum + IntArray[i];
+        for (int anIntArray : intArray) {
+            sum += anIntArray;
         }
         return sum;
     }
 
+    private int[] convertEachRomanLetterToNumber(String romanNumber) {
+        char[] romanChars = romanNumber.toCharArray();
+        int numberOfLetters = romanChars.length;
+        int[] arabNumbers = new int[numberOfLetters];
+        for (int index = 0; index < arabNumbers.length; index++) {
+            arabNumbers[index] = romanToArabUnit(romanChars[index]);
+        }
+        return arabNumbers;
+    }
 
+    private int[] makeNumberNegativeWhenNumberIsLessThanTheFollowingOne(int[] arabNumbersConverted) {
+        int[] arabNumbersRelative = new int[arabNumbersConverted.length];
+        int numberOfNumberToCheck = arabNumbersRelative.length - 1;
+        for (int index = 0; index < numberOfNumberToCheck; index++) {
+            int numberToCheck = arabNumbersConverted[index];
+            arabNumbersRelative[index] = (numberToCheck < arabNumbersConverted[index + 1]) ? -numberToCheck : numberToCheck;
+        }
+        arabNumbersRelative[numberOfNumberToCheck] = arabNumbersConverted[numberOfNumberToCheck];
+        return arabNumbersRelative;
+    }
 
 }
 

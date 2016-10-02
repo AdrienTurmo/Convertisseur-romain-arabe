@@ -16,7 +16,7 @@ public class ConvertisseurTestGlobal {
     public void answer_ShouldReturnI_whenEntryIs1() {
         for (int i = 1; i<4000; i++) {
             // When
-            int answer = convertisseur.RomanToArab(convertisseur.ArabToRoman(i));
+            int answer = convertisseur.romanToArab(convertisseur.arabToRoman(i));
 
             // Then
             assertEquals(i, answer);
